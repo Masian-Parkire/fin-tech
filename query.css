@@ -1,0 +1,166 @@
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .container {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .box {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .box:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .box h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .box p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    body {
+      font-size: 50%;
+    }
+    .navigation {
+      font-size: 1rem;
+    }
+    .main-paragraph {
+      font-size: 2.5rem;
+    }
+    .primary_p {
+      font-size: 16px;
+    }
+    .logos p {
+      font-size: 24px;
+    }
+    table {
+      font-size: 1rem;
+    }
+    .card {
+      height: 230px;
+      width: 220px;
+      font-size: 0.9rem;
+    }
+    .card img {
+      width: 110%;
+      margin-top: 20%;
+      margin-left: 5%;
+    }
+    .card h2,
+    .card p {
+      font-size: 0.9rem;
+      margin-top: 5%;
+    }
+    .secondary-paragraph {
+      font-size: 1.8rem;
+    }
+    .btn {
+      font-size: 1rem;
+    }
+  }  
+
+  @media only screen and (max-width: 360px) {
+    body {
+      font-size: 55%;
+    }
+    .navigation {
+      font-size: 1.1rem;
+    }
+    .main-paragraph {
+      font-size: 2.8rem;
+    }
+    .primary_p {
+      font-size: 17px;
+    }
+    .logos p {
+      font-size: 26px;
+    }
+    table {
+      font-size: 1.1rem;
+    }
+    .card {
+      height: 250px;
+      width: 240px;
+      font-size: 1rem;
+    }
+    .card img {
+      width: 110%;
+      margin-top: 20%;
+      margin-left: 5%;
+    }
+    .card h2,
+    .card p {
+      font-size: 1rem;
+      margin-top: 5%;
+    }
+    .secondary-paragraph {
+      font-size: 2rem;
+    }
+    .btn {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media only screen and (max-width: 428px) {
+    body {
+      font-size: 60%;
+    }
+    .navigation {
+      font-size: 1.3rem;
+    }
+    .main-paragraph {
+      font-size: 3rem;
+    }
+    .primary_p {
+      font-size: 18px;
+    }
+    .logos p {
+      font-size: 30px;
+    }
+    table {
+      font-size: 1.3rem;
+    }
+    .card {
+      height: 270px;
+      width: 260px;
+      font-size: 1.1rem;
+    }
+    .card img {
+      width: 110%;
+      margin-top: 20%;
+      margin-left: 5%;
+    }
+    .card h2,
+    .card p {
+      font-size: 1.1rem;
+      margin-top: 5%;
+    }
+    .secondary-paragraph {
+      font-size: 2.2rem;
+    }
+    .btn {
+      font-size: 1.2rem;
+    }
+  }
+  
